@@ -1,0 +1,16 @@
+#home {
+    background: url(https://cdn.pixabay.com/photo/2016/10/20/18/35/earth-1756274__480.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 715px;
+}
+
+#home .dark-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 715px;
+    background: rgba(0, 0, 0, 0.7);
+}
