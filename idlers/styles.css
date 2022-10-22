@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
+
+* {
+    font-family: sans-serif;
+}
+
+.kofi-button {
+justify-content: center;
+background-color:#2c3e50;
+text-align: center;
+}
+
+.kofitext {
+color: white;
+height: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+
+.kofi-button img {
+    height: 100%;
+    margin-right: 4px;
+}
+
+hgroup {
+    justify-content: center;
+    text-align: center;
+}
