@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+* {
+    font-family: "Nunito", sans-serif;
+}
+
+/* NAVBAR */
+nav {
+    box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
+}
+
+/* HOME */
+#homeh1 {
+    padding-top: 250px;
+    font-size: 50px;
+    font-weight: 700;
+    color: #ff2626;
+}
+
+#homeh2 {
+    color: #ffffff;
+    margin: 15px 0 0 0;
+    font-size: 26px;
+}
+
+
+/* BOX */
+.box {
+    padding: 30px;
+    box-shadow: 0px 0 5px rgba(1, 41, 112, 0.08);
+    text-align: center;
+    height: 100%;
+  }
+
+.box-serv {
+    align-items: center;
+    padding: 5px;
+    width: 300px;
+    box-shadow: 0px 0 50px rgba(0, 18, 50, 0.251);
+    text-align: center;
+    height: auto;
+}
+
+.count-box {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    margin: 20px;
+    width: 340px;
+    background: #fff;
+    box-shadow: 0px 0 30px rgba(0, 0, 1, 0.192);
+}
+
+#Count {
+    align-items: center;
+}
+
+.groove {border-style: groove;}
+
+#home.dark-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 715px;
+    background: rgba(0, 0, 0, 0.7);}
+
+#home {
+    background: url(https://media.cntraveller.com/photos/611be893d5b6f5a4a3def06a/16:9/w_2580,c_limit/st-georges-day-traveller-25apr13-pa_b.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 715px;
+}
